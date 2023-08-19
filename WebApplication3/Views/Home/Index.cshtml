@@ -1,0 +1,13 @@
+﻿@model Text
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="area">
+    <span>Template</span>
+    <form method="post">
+        <textarea asp-for="Message" class="text"></textarea>
+        <input type="submit" class="button" value="send"/>
+    </form>
+</div>
+
